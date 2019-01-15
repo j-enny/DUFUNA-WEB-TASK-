@@ -1,0 +1,7 @@
+body, html{height:100%;}
+.header {text-align:center; background-color:black; color:red; margin-top:10px; margin-bottom:10px;}
+footer p{text-align:center; background-color:black; 
+		color:red; margin-top: 20px;
+		padding: 20px;}
+p img {width:50%; height:auto; margin: 10px 10px 10px 10px}
+	}
