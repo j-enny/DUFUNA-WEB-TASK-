@@ -7,7 +7,13 @@
 	$(document).ready(function () {
 	$("#add").click( function (){
 	var display = $('input').val();
+	if (display ==""){
+	alert("please provide an item!");
+	}
+	else{
 	$('ul').append('<li>' + display + '</li>');
+	$('input').val('') ;
+	}
 	});
 	
 	});
